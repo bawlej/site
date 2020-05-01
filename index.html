@@ -1,30 +1,18 @@
 <html>
 <head>
-<script type="text/javascript">
-/* <![CDATA[ */
-
-function Login(){
-	var pseudo=document.login.pseudo.value;
-	var username=pseudo.toLowerCase();
-	var password=document.login.password.value;
-	password=password.toLowerCase();
-	if (pseudo=="Francis" && password=="296715834134628975758439261483152796617894523529367418375281649862943157941576382") {
-	    alert("Bravo madame, première étape réussi, maintenant tu vas devoir décoder ce message pour accéder à la prochaine étape, (sert toi de google) : https://textup.fr/355303LA");
-	} else { 
-	    alert("Les identifiants ont pas marché, verifie que t'as écris Francis en majuscule et que t'as bien mis TOUT les chiffres du sudoku, en partant de gauche à droite en continuant pour chaque ligne de haut en bas, sinon, essaye d'exploiter une autre solution du sudoku"); 
-	}
-}
-/* ]]> */ 
-</script>
 </head>
 <body>
-    <fieldset style="margin-top: 10px; padding: 10px;" width="60%">
-	<legend><b>Nom : Francis --------------------- Résultats : Tout les nombres du sudoku en partant de gauche à droite pour chaque ligne</b></legend><br/>
-	<form name="login" method="POST" action="">
-	    Prénom : <input name="pseudo" /><br/>
-	    Résultat sudoku : <input type="" name="password" /></br></br>
-	    <input onclick="Login()" type="button" value="ESSAYER LE RESULTAT" name="button" />
-	</form>
-    </fieldset>
+<p>bravo t'as passé la première étape, vu ce que tu viens de faire je pense que tu es
+capable de retrouver mon mdp et de me le rapporter, tu n'es pas un dark haxor pour rien 
+pas vrai? Bref assez parlé je t'explique la suite en parlant. Je vais te donner une equation
+assez facile juste en dessous, ce que tu dois faire, c'est trouvé la ou les solutions (en vrai y en a 3)
+ensuite tu iras sur ce site :
+01101000 01110100 01110100 01110000 01110011 00111010 00101111 00101111 01100010 01101001 01110100 00101110 01101100 01111001 00101111 00110011 01100010 01010110 01010111 00111000 01001011 01101001
+(putain j'adore le binaire) et tu devras ensuite entrer le mot de passe ;
+Le mot de passe c'est les 5 premières décimales d'une des 3 solutions que tu auras trouvé
+
+Voilà voilà éclate toi bien, voilà l'équation :
+2d%36%34%34%30%78%5e%33%2b%35%36%34%34%78%5e%32%2b%35%36%35%30%78%2b%36%36%36%
+(oups j'ai oublié de te dire que je l'ai encodé, bonne chance lol)</p>
 </body>
 </html>
